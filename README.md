@@ -1,4 +1,5 @@
-# gitglance
+
+![logo](https://github.com/abhishekpatil4/gitglance/assets/83769052/68cd5fa2-3335-482c-8832-ce69f09d7759)
 
 A github repository visualiser 
 
