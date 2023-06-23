@@ -1,14 +1,9 @@
 import Image from 'next/image'
 
-
 export default function Home() {
   return (
    <div>
-    {/* header section */}
-    <section>
-      GitGlance Home About Github
-    </section>
-
+   
     {/* body section */}
     <section>
       <div>Hey Dev! Drop down the repo link to visualise</div>
