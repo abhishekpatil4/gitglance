@@ -269,6 +269,10 @@
     }
   },
   "entryCSSFiles": {
+    "/Users/abhishekpatil/Desktop/gitglance/app/page": {
+      "modules": [],
+      "files": []
+    },
     "/Users/abhishekpatil/Desktop/gitglance/app/layout": {
       "modules": [
         "/Users/abhishekpatil/Desktop/gitglance/app/globals.css",
@@ -277,10 +281,6 @@
       "files": [
         "static/css/app/layout.css"
       ]
-    },
-    "/Users/abhishekpatil/Desktop/gitglance/app/page": {
-      "modules": [],
-      "files": []
     }
   }
 }

@@ -1,7 +1,7 @@
 export default function head() {
     return (
         <>
-            <div class="bg-indigo-200 py-3 pr-3">
+            <div class="bg-indigo-500 py-3 pr-3">
                 <div class="max-w-full flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="https://flowbite.com/" class="flex items-center">
                         <img src="https://flowbite.com/docs/images/logo.svg" class="h-10 mr-3" alt="Flowbite Logo" />
