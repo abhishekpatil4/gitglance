@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import githubIcon from '../public/github-mark/github-mark.svg'
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
 
       {/* body section */}
       <section class="text-center py-48">
-        <div class="font-semibold text-4xl pb-12">Hey Dev! Drop down the repo link to visualise</div>
+        <div class="font-semibold text-4xl pb-12"><span class="bg-gradient-to-r from-orange-500 to-yellow-400 text-transparent bg-clip-text">Hey Dev!</span> Drop down the repo link to visualise</div>
         <form>
               <div class="flex justify-center">
               <div class="relative">

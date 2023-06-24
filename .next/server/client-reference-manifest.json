@@ -56,6 +56,14 @@
         "async": false
       }
     },
+    "(app-client)/./public/github-mark/github-mark.svg": {
+      "*": {
+        "id": "(sc_client)/./public/github-mark/github-mark.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/image.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
@@ -232,6 +240,14 @@
       "name": "*",
       "chunks": [
         "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/abhishekpatil/Desktop/gitglance/public/github-mark/github-mark.svg": {
+      "id": "(app-client)/./public/github-mark/github-mark.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
