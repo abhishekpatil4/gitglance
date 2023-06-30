@@ -7,7 +7,7 @@ export default function head() {
     return (
         <>
             <div class="py-3 pr-3">
-                <div class="max-w-full flex flex-wrap items-center justify-between mx-auto p-4">
+                <div class="max-w-[100rem] flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="/" class="flex items-center">
                         <Image src={logo} class="h-12 w-12 mr-2" alt="gitglance logo"/>
                         <span class="self-center text-4xl font-bold whitespace-nowrap dark:text-white">GitGlance</span>
