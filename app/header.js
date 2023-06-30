@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import githubIcon from '../public/github-mark/github-mark.svg'
+import logo from '../public/gg_logo/fifth_light.png';
+
 
 export default function head() {
     return (
@@ -7,8 +9,9 @@ export default function head() {
             <div class="py-3 pr-3">
                 <div class="max-w-full flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="/" class="flex items-center">
-                        <img src="https://flowbite.com/docs/images/logo.svg" class="h-10 mr-3" alt="Flowbite Logo" />
-                        <span class="self-center text-4xl font-semibold whitespace-nowrap dark:text-white">GitGlance</span>
+                        <Image src={logo} class="h-12 w-12 mr-2"/>
+                        {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-10 mr-3" alt="Flowbite Logo" /> */}
+                        <span class="self-center text-4xl font-bold whitespace-nowrap dark:text-white">GitGlance</span>
                     </a>
                     <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
