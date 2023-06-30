@@ -56,14 +56,6 @@
         "async": false
       }
     },
-    "(app-client)/./public/gg_logo/fifth_light.png": {
-      "*": {
-        "id": "(sc_client)/./public/gg_logo/fifth_light.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./public/github-mark/github-mark.svg": {
       "*": {
         "id": "(sc_client)/./public/github-mark/github-mark.svg",
@@ -83,6 +75,14 @@
     "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/gg_logo/fifth_light.png": {
+      "*": {
+        "id": "(sc_client)/./public/gg_logo/fifth_light.png",
         "name": "*",
         "chunks": [],
         "async": false
@@ -251,19 +251,11 @@
       ],
       "async": false
     },
-    "/Users/abhishekpatil/Desktop/gitglance/public/gg_logo/fifth_light.png": {
-      "id": "(app-client)/./public/gg_logo/fifth_light.png",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "/Users/abhishekpatil/Desktop/gitglance/public/github-mark/github-mark.svg": {
       "id": "(app-client)/./public/github-mark/github-mark.svg",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -271,7 +263,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -279,7 +271,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -287,7 +279,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -295,12 +287,24 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/abhishekpatil/Desktop/gitglance/public/gg_logo/fifth_light.png": {
+      "id": "(app-client)/./public/gg_logo/fifth_light.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
+    "/Users/abhishekpatil/Desktop/gitglance/app/page": {
+      "modules": [],
+      "files": []
+    },
     "/Users/abhishekpatil/Desktop/gitglance/app/layout": {
       "modules": [
         "/Users/abhishekpatil/Desktop/gitglance/app/globals.css",
@@ -309,10 +313,6 @@
       "files": [
         "static/css/app/layout.css"
       ]
-    },
-    "/Users/abhishekpatil/Desktop/gitglance/app/page": {
-      "modules": [],
-      "files": []
     }
   }
 }
